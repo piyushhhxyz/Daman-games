@@ -15,7 +15,7 @@ const Main = () => {
     <h2>
       Click on the button to play now!
     </h2>
-     <Button className='butt'href='https://damangames.in/#/register?invitationCode=813825997840' >Sign Up</Button>
+     <Button className='butt'href='https://damangames.in/#/register?invitationCode=3MhJw2777807' >Sign Up</Button>
     </div>
   )
 }
