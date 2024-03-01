@@ -10,8 +10,9 @@ const Main = () => {
         Where imagination meets innovation! Dive into a world of endless fun and excitement with our collection of captivating games designed to thrill players of all ages. Whether you're a casual gamer or a seasoned pro, our diverse range of titles promises to keep you entertained for hours on end. Join our community today and embark on an unforgettable gaming journey with Damangames!
       </Typography>
 
-      <img className='image'src="https://www.f6s.com/content-resource/media/5132199_61a9bd388999b2f637d158cd7aa71d1f5d422ddd_large.png" alt="logo" style={{ width: '500px', height: '300px' }} />
-
+      <div>
+      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="My Image" />
+      </div>
 
       <h2>
         Click on the button to play now!
