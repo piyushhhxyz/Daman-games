@@ -14,7 +14,7 @@
     margin: 0 auto; /* Center the image within its container */
   }
   
-  Button {
+  .butt {
     margin: 20px;
     background-color: #0056b3;
     color: white;

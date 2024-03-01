@@ -16,10 +16,11 @@ const Main = () => {
         Click on the button to play now!
       </h2>
 
-      <button className='butt' href='https://damangames.in/#/register?invitationCode=3MhJw2777807'>
-        {/* <h2>Sign Up</h2> */}
+      <a className='butt' href='https://damangames.in/#/register?invitationCode=3MhJw2777807'>
         Sign Up
-      </button>
+      </a>
+      <br />
+      <br />
 
       {/* Teacher Information */}
       <Typography variant="body1" className='teacher-text'>
