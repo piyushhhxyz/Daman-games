@@ -2,13 +2,13 @@ import React from 'react';
 import { Box, Button, Stack, Typography } from '@mui/material';
 import './Main.css';
 
-const Main = () => {
+const pt_msg = () => {
   return (
     <div className='main'>
       <h1>Welcome to Daman games</h1>
-      <Typography variant="body1" className='teacher-text'>
+      <section className='intro'>
         Where imagination meets innovation! Dive into a world of endless fun and excitement with our collection of captivating games designed to thrill players of all ages. Whether you're a casual gamer or a seasoned pro, our diverse range of titles promises to keep you entertained for hours on end. Join our community today and embark on an unforgettable gaming journey with Damangames!
-      </Typography>
+      </section>
 
       <img className='image' src="https://www.f6s.com/content-resource/media/5132199_61a9bd388999b2f637d158cd7aa71d1f5d422ddd_large.png" alt="logo" style={{ width: '500px', height: '300px' }} />
 
@@ -16,19 +16,18 @@ const Main = () => {
         Click on the button to play now!
       </h2>
 
-      <button className='butt' href='https://damangames.in/#/register?invitationCode=3MhJw2777807'>
-        {/* <h2>Sign Up</h2> */}
+      <Button className='butt' href='https://damangames.in/#/register?invitationCode=3MhJw2777807'>
         Sign Up
-      </button>
+      </Button>
 
-      {/* Teacher Information */}
       <Typography variant="body1" className='teacher-text'>
         <strong>TEACHER OF DAMAN</strong>
-        <br />
-        Teacher Jennifer Candor, who helps you with your games and concerns, please message her once you have already created an account. She will teach you how to profit at Daman Games.
-        <br />
-        <br />
 
+        Teacher Jennifer Candor, who helps you with your games and concerns, please message her once you have already created an account. She will teach you how to profit at Daman Games.
+
+        <br />
+        <br />
+        
         <strong>WhatsApp Numbers:</strong>
         <br />
         +91 92767 50379
@@ -36,6 +35,7 @@ const Main = () => {
         +91 85309 83951
         <br />
         +91 72497 05636
+
         <br />
         <br />
 
@@ -44,6 +44,7 @@ const Main = () => {
         <a href="https://t.me/VIP_DAMANCLUBhelp">https://t.me/VIP_DAMANCLUBhelp</a>
         <br />
         <a href="https://t.me/CandorJennifer_1130">https://t.me/CandorJennifer_1130</a>
+
         <br />
         <br />
 
@@ -52,12 +53,14 @@ const Main = () => {
         tchrjnfrcndr30@gmail.com
         <br />
         damangamesjnfr30@gmail.com
+
         <br />
         <br />
 
         <strong>TEACHER CHANNEL:</strong>
         <br />
         <a href="https://t.me/YourTEACHERofficialChannel">https://t.me/YourTEACHERofficialChannel</a>
+
         <br />
         <br />
 
@@ -69,4 +72,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default pt_msg;
